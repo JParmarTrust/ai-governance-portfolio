@@ -31,18 +31,18 @@ This document applies to:
 * Governance Teams
 * Third-Party Vendors
 
-  ---
+---
 
 # Governance Roles and Responsibilities
 
 | Role | Responsibilities |
-|----------|------------|
+|------|------------------|
 | Business Owner | Approves use case |
-* IT	                  Platform administration
-* Security	            Security review
-* Privacy	              Data review
-* Compliance	          Regulatory review
-* End Users	            Responsible use
+|IT	| Platform administration |
+| Security | Security review |
+| Privacy |	Data review |
+| Compliance | Regulatory review |
+| End Users |	Responsible use |
   
 
 # What Are AI Automation Platforms?
@@ -65,7 +65,7 @@ These platforms allow users to connect systems, automate processes, and leverage
 
 # Common Business Use Cases
 
-Examples of AI automation include:
+Examples of AI automation include :
 
 * Processing form submissions
 * Generating documents
@@ -80,7 +80,7 @@ Examples of AI automation include:
 
 # Risk Category	Examples
 
-Security - Credential theft
+* Security - Credential theft
 Privacy - PII exposure
 Compliance - Regulatory violations
 Operational - Workflow failures
@@ -95,7 +95,7 @@ Third-Party - Vendor outages
 
 Sensitive information may be transmitted to third-party AI services without proper controls.
 
-### Example
+[Example]
 
 An employee submits customer information to an AI model through an automation workflow.
 
@@ -105,7 +105,7 @@ An employee submits customer information to an AI model through an automation wo
 
 AI-generated outputs may contain inaccurate information.
 
-### Example
+[Example]
 
 An AI-generated report contains incorrect financial or operational data.
 
@@ -115,7 +115,7 @@ An AI-generated report contains incorrect financial or operational data.
 
 Automation platforms often require API keys and service accounts.
 
-### Example
+[Example]
 
 An API key is stored insecurely and exposed to unauthorized users.
 
@@ -125,7 +125,7 @@ An API key is stored insecurely and exposed to unauthorized users.
 
 Organizations rely on external vendors and cloud providers.
 
-### Example
+[Example]
 
 A vendor outage disrupts a critical business process.
 
@@ -135,7 +135,7 @@ A vendor outage disrupts a critical business process.
 
 Workflow modifications can create unintended business impacts.
 
-### Example
+[Example]
 
 A workflow update accidentally sends confidential data to the wrong destination.
 
@@ -155,24 +155,16 @@ A workflow update accidentally sends confidential data to the wrong destination.
 * Restrict high-risk data processing
 * Define approved use cases
 
-## Human Oversight
+## Human Oversight Requirements
 
-* Require human review for critical decisions
-* Validate AI-generated outputs
+### Organizations should ensure that :
+
+* Require human review for critical decisions - Humans remain accountable for decisions
+* Validate AI-generated outputs - Critical outputs are reviewed
 * Establish escalation procedures
-
 * Human Oversight
 
-Potential section:
-
-Human Oversight Requirements
-
-Organizations should ensure that:
-
-Humans remain accountable for decisions.
-Critical outputs are reviewed.
-Escalation paths exist.
-AI does not operate without oversight in high-risk scenarios.
+AI does not operate without oversight, especially in high-risk scenarios.
 
 ## Audit Logging
 
@@ -192,7 +184,7 @@ AI does not operate without oversight in high-risk scenarios.
 
 Organizations frequently focus on automation benefits while underestimating governance requirements.
 
-Successful adoption requires balancing:
+Successful adoption requires balancing :
 
 * Innovation
 * Risk management
@@ -210,22 +202,12 @@ AI-powered automation platforms can deliver significant business value when impl
 
 # NIST AI RMF Alignment
 
-] Function	        Example
+| Function | Example |
+|----------|---------|
+| GOVERN | Policies, roles, approvals |
+| MAP | Identify use cases and stakeholders |
+| MEASURE | Assess risks and controls |
+| MANAGE | Monitor and mitigate risks |
 
-* GOVERN	          Policies, roles, approvals
-* MAP	              Identify use cases and stakeholders
-* MEASURE	          Assess risks and controls
-* MANAGE	          Monitor and mitigate risks
-
----
-
-# Future Research Topics
-
-* AI Agent Governance
-* AI Risk Registers
-* NIST AI RMF Mapping
-* ISO 42001 Alignment
-* AI Vendor Risk Management
-* AI Incident Response
-* Human-in-the-Loop Controls
-
+#### https://www.nist.gov/itl/ai-risk-management-framework
+  
