@@ -35,14 +35,14 @@ This document applies to:
 
 # Governance Roles and Responsibilities
 
-| Role | Responsibilities |
-|------|------------------|
-| Business Owner | Approves use case |
-|IT	| Platform administration |
-| Security | Security review |
-| Privacy |	Data review |
-| Compliance | Regulatory review |
-| End Users |	Responsible use |
+| Role           | Responsibilities        |
+| -------------- | ----------------------- |
+| Business Owner | Approves use case       |
+| IT             | Platform administration |
+| Security       | Security review         |
+| Privacy        | Data review             |
+| Compliance     | Regulatory review       |
+| End Users      | Responsible use         |
   
 
 # What Are AI Automation Platforms?
@@ -63,6 +63,21 @@ These platforms allow users to connect systems, automate processes, and leverage
 
 ---
 
+# Categories of Automation Platforms
+
+| Category                         | Examples                                                   |
+| -------------------------------- | ---------------------------------------------------------- |
+| Enterprise Native                | Power Automate, Copilot Studio                             |
+| General Automation SaaS          | Make.com, Zapier                                           |
+| Self-Hosted / Open Source        | n8n                                                        |
+| AI Agent Platforms               | OpenAI GPT Actions, Claude Integrations, Langflow, Flowise |
+| Developer Workflow Platforms     | GitHub Actions, Azure Logic Apps                           |
+| Enterprise Integration Platforms | MuleSoft, Boomi, Workato                                   |
+
+
+---
+
+
 # Common Business Use Cases
 
 Examples of AI automation include :
@@ -78,16 +93,17 @@ Examples of AI automation include :
 
 ---
 
-# Risk Category	Examples
+# Risk Category Examples
 
 * Security - Credential theft
-Privacy - PII exposure
-Compliance - Regulatory violations
-Operational - Workflow failures
-AI-Specific - Hallucinations
-Third-Party - Vendor outages
+* Privacy - PII exposure
+* Compliance - Regulatory violations
+* Operational - Workflow failures
+* AI-Specific - Hallucinations
+* Third-Party - Vendor outages
 
 ---
+
 
 # Key Risks Examples
 
@@ -202,12 +218,25 @@ AI-powered automation platforms can deliver significant business value when impl
 
 # NIST AI RMF Alignment
 
-| Function | Example |
-|----------|---------|
-| GOVERN | Policies, roles, approvals |
-| MAP | Identify use cases and stakeholders |
-| MEASURE | Assess risks and controls |
-| MANAGE | Monitor and mitigate risks |
+| Function | Example                             |
+| -------- | ----------------------------------- |
+| GOVERN   | Policies, roles, approvals          |
+| MAP      | Identify use cases and stakeholders |
+| MEASURE  | Assess risks and controls           |
+| MANAGE   | Monitor and mitigate risks          |
 
 #### https://www.nist.gov/itl/ai-risk-management-framework
+
+
+
+
+| Platform        | Ease of Use | Governance Visibility | Security Control | Vendor Dependence |
+| --------------- | ----------- | --------------------- | ---------------- | ----------------- |
+| Power Automate  | High        | High                  | High             | Medium            |
+| Copilot Studio  | High        | High                  | High             | Medium            |
+| Make.com        | High        | Medium                | Medium           | High              |
+| Zapier          | High        | Medium                | Medium           | High              |
+| n8n Cloud       | Medium      | Medium                | Medium           | High              |
+| n8n Self-Hosted | Low         | High                  | High             | Low               |
+
   
