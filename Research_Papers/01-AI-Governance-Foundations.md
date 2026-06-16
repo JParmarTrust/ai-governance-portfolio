@@ -8,9 +8,7 @@
 
 # Executive Summary
 
-
-
-This paper provides practical governance considerations for organizations evaluating or implementing AI-powered automation solutions.
+![NIST](images/2026-05-30%2007_23_39-NIST.AI.100-1.jpg)
 
 ---
 
@@ -30,3 +28,4 @@ This document applies to:
 * Technology Teams
 * Governance Teams
 * Third-Party Vendors
+
