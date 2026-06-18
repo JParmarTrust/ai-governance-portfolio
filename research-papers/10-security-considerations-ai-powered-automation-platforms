@@ -1,0 +1,89 @@
+# Security Considerations for AI-Powered Automation Platforms
+
+**Author:** J Parmar
+**Date:** June 2026
+**Repository:** AI Governance Portfolio
+
+## Introduction
+
+Artificial intelligence-powered automation platforms such as Make.com, Microsoft Power Automate, Zapier, n8n, ChatGPT Actions, and Claude integrations enable organizations to automate business processes and connect systems with minimal development effort.
+
+While these platforms provide significant operational benefits, they also introduce security risks that organizations should evaluate before deployment.
+
+This paper examines common Security+ concepts that apply directly to AI-powered automation platforms.
+
+## Identity and Access Management
+
+Automation platforms often rely on service accounts, API keys, OAuth connections, and delegated permissions.
+
+Security considerations include:
+
+* Least Privilege
+* Role-Based Access Control (RBAC)
+* Multi-Factor Authentication (MFA)
+* Credential Lifecycle Management
+
+## Data Protection
+
+Automation workflows frequently process sensitive business information.
+
+Security considerations include:
+
+* Data Classification
+* Encryption in Transit
+* Encryption at Rest
+* Data Retention Requirements
+* Data Sovereignty
+
+## Third-Party Risk
+
+Most automation platforms depend on external cloud providers and AI services.
+
+Security considerations include:
+
+* Vendor Assessments
+* SOC 2 Reports
+* Service Level Agreements (SLAs)
+* Right-to-Audit Clauses
+
+## Monitoring and Detection
+
+Organizations should maintain visibility into automation activities.
+
+Security considerations include:
+
+* Audit Logging
+* SIEM Integration
+* Anomaly Detection
+* Incident Monitoring
+
+## Security Architecture
+
+Automation platforms create new trust boundaries within an organization.
+
+Security considerations include:
+
+* API Security
+* Network Segmentation
+* Secure Enclaves
+* Trust Boundaries
+* Zero Trust Principles
+
+## Conclusion
+
+AI-powered automation platforms provide substantial business value but require governance and security controls to reduce operational and compliance risks.
+
+Organizations should evaluate identity management, data protection, monitoring, vendor risk, and architectural controls before deploying automation solutions at scale.
+
+### Security+ Concepts Referenced
+
+- Least Privilege
+- RBAC
+- MFA
+- Data Classification
+- Encryption
+- Vendor Risk
+- SIEM
+- Audit Logging
+- Network Segmentation
+- Zero Trust

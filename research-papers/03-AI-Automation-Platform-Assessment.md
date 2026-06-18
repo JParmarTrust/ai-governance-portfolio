@@ -1,8 +1,18 @@
-# Practical Governance Considerations for AI-Powered Automation Platforms
+# AI-Automation-Platform-Assessment
 
 **Author:** J Parmar
 **Date:** June 2026
 **Repository:** AI Governance Portfolio
+
+
+Agent Identity
+Workflow Trust Boundaries
+API Security
+Agent Permissions
+Tool Calling Controls
+Human Approval Gates
+Auditability
+Autonomous Action Risk
 
 ---
 
@@ -24,26 +34,13 @@ The purpose of this document is to identify common risks associated with AI-powe
 
 This document applies to:
 
-* Employees
-* Contractors
 * Business Units
 * Technology Teams
 * Governance Teams
 * Third-Party Vendors
 
 ---
-
-# Governance Roles and Responsibilities
-
-| Role           | Responsibilities        |
-| -------------- | ----------------------- |
-| Business Owner | Approves use case       |
-| IT             | Platform administration |
-| Security       | Security review         |
-| Privacy        | Data review             |
-| Compliance     | Regulatory review       |
-| End Users      | Responsible use         |
-  
+ 
 
 # What Are AI Automation Platforms?
 
